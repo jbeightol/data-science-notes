@@ -15,8 +15,6 @@
 1. Repeatedly perform a set of commands
 1. Use a for loop
 1. Create a class for an object
-1. Have a class inherit from another
-1. Create a factory for objects
 
 ## Print a message
 
@@ -218,76 +216,3 @@ sally.greet()
 - `__init__` is a function that gets called when a new object is created.
 - `self` is the object that's created
 
-## Have a class inherit from another
-
-```python
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def greet(self):
-        print("Hello, my name is " + self.name + ". My age is " + str(self.age))
-
-    def work(self):
-        print("Boring...")
-
-class SuperHero(Person): # tell it to inherit from Person
-    def __init__(self, name, age, powers):
-        super().__init__(name,age) # call Person's __init__()
-        self.powers = powers
-
-    def greet(self):
-        super().greet() # call Person's greet()
-        self.listPowers()
-
-    def listPowers(self):
-        for power in self.powers:
-            print(power)
-
-    def work(self): # override Person's work()
-        print("To action!")
-
-superman = SuperHero('Clark Kent', 200, ['flight', 'strength', 'invulnerability'])
-
-superman.greet()
-superman.work()
-```
-
-## Create a factory for objects
-
-```python
-class Car:
-    def __init__(self, maker, model, serial):
-        self.maker = maker
-        self.model = model
-        self.serial = serial
-
-class CarFactory:
-    def __init__(self, name):
-        self.name = name
-        self.cars = []
-
-    def makeCar(self, model):
-        self.cars.append(Car(self.name, model, len(self.cars)))
-
-    def listCars(self):
-        for car in self.cars:
-            print(car.maker + " " + car.model + ": " + str(car.serial))
-
-    def findCar(self, serial):
-        for car in self.cars:
-            if(car.serial == serial):
-                return car
-
-toyota = CarFactory('Toyota')
-toyota.makeCar('Prius')
-toyota.makeCar('Rav 4')
-toyota.listCars()
-print(toyota.findCar(1).model)
-```
-
-### Activities
-
-- [Landscaper](landscaper.md)
-- [Castle Battle](castle.md)
