@@ -150,6 +150,8 @@ user_input = raw_input("Please enter something: ")
 print "you entered: " + user_input
 ```
 
+
+
 ### ACTIVITY
 
 Write a program that models this flow chart:
@@ -190,9 +192,76 @@ for food in foods:
       print(food)
 ```
 
+The `for loop` allows you to perform a repetitive task on every element within an object, such as every every name in a list.
+
+
+Lets see how the sudo code works
+
+```python
+# for each individual object in the list
+    # perform task_A on said object
+    # once task_A has been completed, move to next object in the list
+```
+
+Lets say we wanted to print each of the names in the list and as well as 'Is Awesome!'
+
+
 ### ACTIVITIES
 
-Simplify the last set of activities using a `for` loop
+### Write a `for`-loop that iterates from the number 1 to the number 15.
+
+On each iteration, print out the number.
+
+
+### Iterate from 1 to 15, printing whether the number is odd or even.
+
+Hint: The modulus operator, `%`, can be used to take the remainder. For example:
+
+```python
+9 % 5 == 4
+```
+
+Or in other words, the remainder of dividing 9 by 5 is 4. 
+
+### Iterate through the following list of animals, and print each one in all caps.
+
+```python
+animals = ['duck', 'rat', 'boar', 'slug', 'mammoth', 'gazelle']
+```
+
+### 7. Iterate through the animals list. Capitalize the first letter and append the modified animals to a new list.
+
+
+<a id='fizz_buzz'></a>
+### Iterate from 1 to 30 with the following instructions:
+
+1. If a number is divisible by 3, print 'fizz'. 
+2. If a number is divisible by 5, print 'buzz'. 
+3. If a number is both divisible by 3 and 5 print 'fizzbuzz'.
+4. Otherwise, print just the number.
+
+<a id='functions'></a>
+# Functions
+---
+
+Similar to the way we can use for loops as a means of performing repetitive tasks on a series of objects we can create functions to perform repetitve tasks as well.  The use behind a function is that we can write a large block of actions within a function and then call the function whenever we want to use it.  
+
+
+Lets make some sudo code.
+```python
+# define the function name and the requirements it needs
+    # perform actions
+    # optional : return output
+```
+
+Lets create a function at takes two numbers as arguments and returns their sum, difference and product. 
+
+
+### Write a function to calculate the area of a triangle uaing a height and width.
+
+Test it out.
+
+
 
 ## Create a class for an object
 
