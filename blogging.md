@@ -46,7 +46,7 @@ I also recommend Sebastian Raschka's [blog](http://sebastianraschka.com/blog/ind
 
 My favorite data science personal blog, and one we should all seek to emulate, is [Max Woolf's](http://minimaxir.com/). Let's check out what he does well in the following:
 
-- Stack Overflow](http://minimaxir.com/2016/07/stack-overflow/)
+- [Stack Overflow](http://minimaxir.com/2016/07/stack-overflow/)
 - [Equity Job Offers in San Francisco](http://minimaxir.com/2016/05/sfba-compensation/)
 - [Vizualizing Clickbait](http://minimaxir.com/2016/08/clickbait-cluster/)
 - [FB Reactions Classification](http://minimaxir.com/2016/06/interactive-reactions/).
@@ -68,7 +68,7 @@ This [video](https://www.youtube.com/watch?v=ZXsQAXx_ao0) is the best advice.
 
 Your data science blog does not need to be a Corvette. It just needs to exist. As you get better, your blog will too. You will be able to do more and more impressive techniques, and your writing will reflect this. Perhaps you'll even build out an email list. All that matters is that you __begin__.
 
-Your blog should follow [agile development](https://pbs.twimg.com/media/B82SXypCAAAnPn5.png) principles. If you don't believe me, checkout an example from DSI-3 in Atlanta [reflections on my choice to persue data science] (https://medium.com/@ctgray86/reflections-on-my-choice-to-pursue-data-science-6fee8ecbcae0) 
+Your blog should follow [agile development](https://pbs.twimg.com/media/B82SXypCAAAnPn5.png) principles. If you don't believe me, checkout an example from DSI-3 in Atlanta [reflections on my choice to persue data science](https://medium.com/@ctgray86/reflections-on-my-choice-to-pursue-data-science-6fee8ecbcae0) 
 
 There are many avenues you can take. Let's discuss two.
 
