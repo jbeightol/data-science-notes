@@ -229,7 +229,7 @@ Or in other words, the remainder of dividing 9 by 5 is 4.
 animals = ['duck', 'rat', 'boar', 'slug', 'mammoth', 'gazelle']
 ```
 
-### 7. Iterate through the animals list. Capitalize the first letter and append the modified animals to a new list.
+### Iterate through the animals list. Capitalize the first letter and append the modified animals to a new list.
 
 
 <a id='fizz_buzz'></a>
@@ -242,11 +242,18 @@ animals = ['duck', 'rat', 'boar', 'slug', 'mammoth', 'gazelle']
 
 <a id='functions'></a>
 
+
 ### 3s and 5s
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
 Find the sum of all the multiples of 3 or 5 below 1000.
+
+
+
+### Finding the Hypotenuse 
+
+Create a function that takes the two shorter sides of a right triangle and returns the hypotenuse 
 
 
 
