@@ -182,6 +182,20 @@ while a < 20:
 1. Combine all the programs from the previous step into one program that asks the user what operation they would like to do
 1. Alter the last program so that it performs the operations for only numbers that are greater than a number specified by the user
 
+
+
+## Excercise 
+
+Ben has a very simple idea to make some profit: he buys something and sells it again. Of course, this wouldn't give him any profit at all if he was simply to buy and sell it at the same price. Instead, he's going to buy it for the lowest possible price and sell it at the highest.
+
+Write a function that returns both the minimum and maximum number of the given list/array.
+
+### example
+
+```python
+min_max([1,2,3,4,5])   == [1,5]
+```
+
 ## Use a for loop
 
 The process of looping through an array can be simplified with a `for` loop:
