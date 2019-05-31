@@ -171,7 +171,7 @@ while a < 20:
 
 1. Write a program that models this flow chart:
 
-    ![pictionary](http://pics.blameitonthevoices.com/032011/how_to_play_pictionary.jpg)
+    ![pictionary](../images/pictionary.jpeg)
 
 1. Given the following list [70, 95, 97, 55, 3, 24, 89, 97, 84, 11]
     - Write a program that loops through each value in the list and prints it
